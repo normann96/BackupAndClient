@@ -1,0 +1,1 @@
+It is dealing in unformatted memory.This is what operator new and malloc return: a pointer to a block of memory of a certain size. Since the memory does not have a type (because it does not have a properly constructed object in it yet), it is typeless.!
