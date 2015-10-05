@@ -8,37 +8,6 @@
 int _tmain(int argc, _TCHAR* argv[])
 {
 	setlocale(0, "");
-	
-	char *sStr;
-/*
-	{
-		backup myBackup_1;				// конструкто по умолчанию NewFile.txt
-		sStr = "All will be FINE!";
-		myBackup_1.Write(sStr);
-	}
-
-	{
-		backup myBackup_2;
-		myBackup_2.Read();
-		myBackup_2.ShowTest();
-	}
-
-	{
-		backup myBackup_3("1.txt");
-		sStr = "C++ is very good programm language!";
-		int s = 4;
-		myBackup_3.Write(&s);
-		myBackup_3.Read();
-		myBackup_3.ShowTest();
-	}
-
-	{
-		backup myBackup_4("readme.txt");
-		myBackup_4.Read();
-		myBackup_4.ShowTest();
-	}
-*/	
-
 	{
 		client * pClient = new client;
 		backup * pBackup = new backup("1.txt");
